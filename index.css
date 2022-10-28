@@ -1,0 +1,85 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    background: #EDEDED;
+}
+
+
+/*Layout*/
+.container {
+    max-width: 800px;
+    margin: 0px auto 50px auto;
+    background: #FFFFFF;
+    padding: 15px 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 20px;
+    height: 70px;
+    border-bottom: 1px #C6C6C6 solid;
+}
+
+.card-head {
+    display: flex;
+    height: 60px;
+    padding: 20px;
+    
+    gap: 10px;
+}
+
+.card-footer {
+    margin: 0px 20px;
+}
+
+
+/*Text*/
+.poster-name {
+    font-weight: bold;
+    font-size: 1.2rem;
+    display: block;
+    margin-top: 5px;
+}
+
+.poster-location {
+    display: block;
+    margin-top: 5px;
+}
+
+h3 {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.comment-name {
+    margin-top: 0px; 
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.card-footer > p {
+    display: block;
+    margin-top: 0px; 
+}
+
+/*Images*/
+#user-avater, .poster-avatar {
+    border-radius: 59%;
+}
+
+.card-post {
+    width: 100%; 
+}
+
+.interaction-icon-container {
+    display: flex;
+    gap: 20px;
+    height: 40px;
+    padding-top: 10px;
+}
